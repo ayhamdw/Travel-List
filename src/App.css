@@ -44,7 +44,6 @@ h1 {
   justify-content: center;
   gap: 0.8rem;
   flex-wrap: wrap;
-  /* ✅ Allow wrapping on small screens */
 }
 
 h3 {
@@ -131,9 +130,6 @@ input[type="checkbox"] {
   padding: 3.2rem 0;
 }
 
-/* ✅ Responsive Design Starts Here */
-
-/* Tablet view */
 @media (max-width: 768px) {
   h1 {
     font-size: 5rem;
@@ -158,7 +154,6 @@ input[type="checkbox"] {
   }
 }
 
-/* Mobile view */
 @media (max-width: 480px) {
   html {
     font-size: 55%;
@@ -190,5 +185,3 @@ input[type="checkbox"] {
     margin: 0.4rem 0;
   }
 }
-
-/* ✅ End of Responsive Additions */
