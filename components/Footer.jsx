@@ -1,7 +1,7 @@
 import "../src/App.css";
 
 export default function Footer({ items, checkedItems }) {
-  const percentage = ((checkedItems ?? 0 / items) * 100).toFixed(1);
+  const percentage = ((checkedItems / items) * 100).toFixed(1);
   return (
     <footer className="stats">
       <em>
